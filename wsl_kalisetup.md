@@ -12,7 +12,11 @@
 You can try `apt install kali-win-kex` but not been able to get it to work 'connection refused 16001' errno=11
 
 use `sudo apt install xrdp -y`
+
+`sudo service xrdp start`
+
 find ip address `ip add`
+
 see [https://www.youtube.com/watch?v=AfVH54edAHU](https://www.youtube.com/watch?v=AfVH54edAHU) for a nice video. 
 
 mstsc -the ip address.
