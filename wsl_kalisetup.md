@@ -22,3 +22,6 @@ see [https://www.youtube.com/watch?v=AfVH54edAHU](https://www.youtube.com/watch?
 mstsc -the ip address.
 
 `sudo apt install -y kali-linux-everything` to install the world.
+
+
+`kalihidpi` for high dpi mode
