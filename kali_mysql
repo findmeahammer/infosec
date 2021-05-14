@@ -1,0 +1,30 @@
+use mariadb rather than trying to install mysql
+
+sudo apt-get install mariadb-server
+
+create a user
+
+
+grant them super user
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'tolkien'@'%';
+
+grant network access
+
+sudo nano /etc/mysql/my.cnf  
+
+Add `sudo nano /etc/mysql/my.cnf` to the bottom
+press:
+- ctrl + x
+- y
+- enter
+
+
+Restart the service
+`systemctl restart mariadb`
+
+check its listening on the right port
+netstat -ant | grep 3306  
+there should be a listening port 3306 (default port)
+
+
+
